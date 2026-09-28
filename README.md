@@ -1,10 +1,22 @@
 # ViralScout MCP
 
+[![MCPize](https://mcpize.com/badge/@mahmoudhisham564/viralscout)](https://mcpize.com/mcp/viralscout)
+
 **Free short-form video analysis toolkit for TikTok, Reels, and YouTube Shorts.**
 
 ViralScout MCP turns supplied transcripts and video metadata into structured hook analysis, pacing suggestions, original remix angles, short-form script frameworks, content-gap hypotheses, and complete creator packs.
 
 > Publisher: **Mahmoud Hisham**
+
+## Connect via MCPize
+
+Use this MCP server instantly with no local installation:
+
+```bash
+npx -y mcpize connect @mahmoudhisham564/viralscout --client claude
+```
+
+Or connect at: **https://mcpize.com/mcp/viralscout**
 
 ## Why ViralScout?
 
