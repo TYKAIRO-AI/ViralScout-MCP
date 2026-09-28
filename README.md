@@ -64,6 +64,8 @@ npm run dev
 npm run check
 ```
 
+`npm run check` builds the production server and runs both unit tests and an end-to-end STDIO MCP smoke test.
+
 ## Example prompts
 
 ```text
@@ -87,7 +89,7 @@ After building locally:
   "mcpServers": {
     "viralscout": {
       "command": "node",
-      "args": ["/absolute/path/to/ViralScout-MCP/dist/src/index.js"]
+      "args": ["/absolute/path/to/ViralScout-MCP/dist/index.js"]
     }
   }
 }
