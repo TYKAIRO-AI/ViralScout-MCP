@@ -1,6 +1,6 @@
 # ViralScout MCP
 
-**Free short-form video intelligence for TikTok, Reels, and YouTube Shorts.**
+**Free short-form video analysis toolkit for TikTok, Reels, and YouTube Shorts.**
 
 ViralScout MCP turns supplied transcripts and video metadata into structured hook analysis, pacing suggestions, original remix angles, short-form script frameworks, content-gap hypotheses, and complete creator packs.
 
@@ -28,7 +28,7 @@ Creators often know a video worked but not *why* it worked. ViralScout breaks sh
 The hosted core requires:
 
 - **No API key**
-- **No paid AI API**
+- **No paid external processing service**
 - **No subscriber credential**
 - **No shared secret**
 - **No account setup**
@@ -71,7 +71,7 @@ Analyze this transcript and explain the hook, structure, and retention opportuni
 ```
 
 ```text
-Create five original remix ideas about AI agents without copying the source wording.
+Create five original remix ideas about fitness tips without copying the source wording.
 ```
 
 ```text
@@ -99,7 +99,7 @@ MCPize supports direct GitHub deployment for MCP repositories using STDIO.
 
 Recommended listing configuration:
 
-- **Name:** ViralScout — Short-Form Video Intelligence
+- **Name:** ViralScout — Short-Form Video Analysis Toolkit
 - **Slug:** `viralscout`
 - **Category:** Creator Tools / Marketing
 - **Pricing:** Free
