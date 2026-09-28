@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 /**
  * ViralScout MCP
  * Developer: Mahmoud Hisham
@@ -5,7 +6,6 @@
  * Original repository: https://github.com/Turkeyz1/ViralScout-MCP
  * Developer fingerprint: MH-VIRALSCOUT-2026
  */
-#!/usr/bin/env node
 import { McpServer } from "@modelcontextprotocol/sdk/server/mcp.js";
 import { StdioServerTransport } from "@modelcontextprotocol/sdk/server/stdio.js";
 import { z } from "zod";
@@ -174,7 +174,7 @@ server.tool(
     const cleaned = requireTranscript(transcript);
     const hook = classifyHook(cleaned);
     const key = keywords(cleaned);
-    const resolvedTopic = topic ?? key.slice(0, 3).join(" / ") || "the topic";
+    const resolvedTopic = topic ?? (key.slice(0, 3).join(" / ") || "the topic");
     return ok({
       platform,
       topic: resolvedTopic,
