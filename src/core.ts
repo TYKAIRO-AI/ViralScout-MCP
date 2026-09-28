@@ -1,3 +1,9 @@
+/**
+ * ViralScout MCP Core
+ * Developer: Mahmoud Hisham
+ * Copyright © 2026 Mahmoud Hisham. All rights reserved.
+ * Developer fingerprint: MH-VIRALSCOUT-2026
+ */
 export type TranscriptInput = {
   transcript: string;
   title?: string;
