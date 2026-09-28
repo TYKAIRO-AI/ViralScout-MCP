@@ -1,0 +1,42 @@
+{
+  "name": "viralscout-mcp",
+  "version": "0.1.0",
+  "description": "Free MCP server for short-form video analysis, hooks, remix ideas, scripts, content gaps, and creator packs.",
+  "type": "module",
+  "main": "dist/index.js",
+  "bin": {
+    "viralscout-mcp": "dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "start": "node dist/index.js",
+    "dev": "tsx src/index.ts",
+    "test": "vitest run",
+    "check": "npm run build && npm run test"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "tiktok",
+    "reels",
+    "youtube-shorts",
+    "short-form-video",
+    "content-creation",
+    "creator-tools"
+  ],
+  "author": "Mahmoud Hisham",
+  "license": "SEE LICENSE IN LICENSE",
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.17.0",
+    "zod": "^3.25.0"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.0",
+    "tsx": "^4.20.0",
+    "typescript": "^5.9.0",
+    "vitest": "^3.2.0"
+  }
+}
