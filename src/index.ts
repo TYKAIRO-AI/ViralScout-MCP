@@ -1,3 +1,10 @@
+/**
+ * ViralScout MCP
+ * Developer: Mahmoud Hisham
+ * Copyright © 2026 Mahmoud Hisham. All rights reserved.
+ * Original repository: https://github.com/Turkeyz1/ViralScout-MCP
+ * Developer fingerprint: MH-VIRALSCOUT-2026
+ */
 #!/usr/bin/env node
 import { McpServer } from "@modelcontextprotocol/sdk/server/mcp.js";
 import { StdioServerTransport } from "@modelcontextprotocol/sdk/server/stdio.js";
