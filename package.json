@@ -40,9 +40,12 @@
     "vitest": "^3.2.0"
   },
   "publisher": "Mahmoud Hisham",
-  "homepage": "https://github.com/Turkeyz1/ViralScout-MCP",
+  "homepage": "https://github.com/TYKAIRO-AI/ViralScout-MCP#readme",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Turkeyz1/ViralScout-MCP.git"
+    "url": "git+https://github.com/TYKAIRO-AI/ViralScout-MCP.git"
+  },
+  "bugs": {
+    "url": "https://github.com/TYKAIRO-AI/ViralScout-MCP/issues"
   }
 }
