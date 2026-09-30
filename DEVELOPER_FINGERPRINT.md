@@ -1,10 +1,11 @@
 # Developer Fingerprint
 
 **Developer:** Mahmoud Hisham  
+**Organization:** TYKAIRO AI  
 **Product:** ViralScout MCP  
 **Fingerprint ID:** `MH-VIRALSCOUT-2026`  
 **Copyright:** © 2026 Mahmoud Hisham. All rights reserved.  
-**Original repository:** https://github.com/Turkeyz1/ViralScout-MCP
+**Original repository:** https://github.com/TYKAIRO-AI/ViralScout-MCP
 
 ## Purpose
 
