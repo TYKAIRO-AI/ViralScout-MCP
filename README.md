@@ -1,6 +1,5 @@
 # ViralScout MCP
 
-
 > **A TYKAIRO AI product** — Founded by **Mahmoud Hisham**
 **Free short-form video analysis toolkit for TikTok, Reels, and YouTube Shorts.**
 
