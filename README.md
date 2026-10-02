@@ -1,17 +1,35 @@
-# ViralScout MCP
+# 🎬 ViralScout MCP
 
 > **A TYKAIRO AI product** — Founded by **Mahmoud Hisham**
-**Free short-form video analysis toolkit for TikTok, Reels, and YouTube Shorts.**
 
-ViralScout MCP turns supplied transcripts and video metadata into structured hook analysis, pacing suggestions, original remix angles, short-form script frameworks, content-gap hypotheses, and complete creator packs.
+**Free MCP toolkit that turns short-form video transcripts into hook analysis, retention ideas, original remix angles, and ready-to-record creator packs.**
 
-> Publisher: **Mahmoud Hisham**
+[![TypeScript](https://img.shields.io/badge/TypeScript-MCP-informational)](https://www.typescriptlang.org/)
+[![Node.js](https://img.shields.io/badge/Node.js-20%2B-informational)](https://nodejs.org/)
+[![No API Key](https://img.shields.io/badge/API%20key-not%20required-informational)](#cloud-safe-by-design)
+[![TYKAIRO AI](https://img.shields.io/badge/by-TYKAIRO%20AI-informational)](https://github.com/TYKAIRO-AI)
 
-## Why ViralScout?
+ViralScout helps creators understand **why a short-form video works** and turn those patterns into original ideas without copying distinctive source wording or footage.
 
-Creators often know a video worked but not *why* it worked. ViralScout breaks short-form content into reusable communication patterns without copying distinctive source wording or footage.
+## ⚡ Quick start
 
-### 8 focused MCP tools
+```bash
+git clone https://github.com/TYKAIRO-AI/ViralScout-MCP.git
+cd ViralScout-MCP
+npm install
+npm run build
+npm start
+```
+
+Run the full validation suite:
+
+```bash
+npm run check
+```
+
+`npm run check` builds the production server and runs unit tests plus an end-to-end STDIO MCP smoke test.
+
+## 8 focused MCP tools
 
 | Tool | What it does |
 |---|---|
@@ -23,49 +41,6 @@ Creators often know a video worked but not *why* it worked. ViralScout breaks sh
 | `generate_short_script` | Create a ready-to-record script framework |
 | `generate_content_gaps` | Generate underserved-angle hypotheses |
 | `create_creator_pack` | One-call complete creator workflow |
-
-## Cloud-safe by design
-
-The hosted core requires:
-
-- **No API key**
-- **No paid external processing service**
-- **No subscriber credential**
-- **No shared secret**
-- **No account setup**
-
-This avoids unnecessary onboarding friction on MCP hosts such as MCPize.
-
-The cloud-safe version does **not** pretend to have live TikTok search-volume data and does not claim to download protected/private platform media. If a tool is given a URL, the URL is treated as source metadata unless an explicitly documented local workflow is used.
-
-## Quick start
-
-### Requirements
-
-- Node.js 20+
-- npm
-
-### Install and run
-
-```bash
-npm install
-npm run build
-npm start
-```
-
-### Development
-
-```bash
-npm run dev
-```
-
-### Test
-
-```bash
-npm run check
-```
-
-`npm run check` builds the production server and runs both unit tests and an end-to-end STDIO MCP smoke test.
 
 ## Example prompts
 
@@ -96,9 +71,37 @@ After building locally:
 }
 ```
 
-## MCPize deployment
+## Cloud-safe by design
 
-MCPize supports direct GitHub deployment for MCP repositories using STDIO.
+The hosted core requires:
+
+- **No API key**
+- **No paid external processing service**
+- **No subscriber credential**
+- **No shared secret**
+- **No account setup**
+
+The cloud-safe version does **not** claim to provide live TikTok search-volume data or download protected/private platform media. URLs are treated as source metadata unless an explicitly documented local workflow is used.
+
+## What ViralScout is good at
+
+ViralScout focuses on reusable communication structure:
+
+```text
+Transcript / captions
+        ↓
+Hook + structure analysis
+        ↓
+Retention opportunities
+        ↓
+Original remix angles
+        ↓
+Script framework / creator pack
+```
+
+It is useful for creators, social teams, marketers, agencies, and developers building MCP-powered content workflows.
+
+## MCPize deployment
 
 Recommended listing configuration:
 
@@ -124,6 +127,12 @@ The hosted core expects the user to provide a transcript/captions. Optional loca
 
 ViralScout is intended for inspiration, analysis, and original content creation. Do not use it to reproduce another creator's distinctive script, footage, branding, or copyrighted creative expression.
 
+## Contributing
+
+See [CONTRIBUTING.md](./CONTRIBUTING.md). Issues and feature ideas are welcome.
+
+If ViralScout helps your workflow, consider starring the repository so more creators and MCP builders can discover it.
+
 ## Privacy
 
 See [PRIVACY.md](./PRIVACY.md).
@@ -140,4 +149,4 @@ Use is permitted under the source-available terms in [LICENSE](./LICENSE). Repub
 
 ---
 
-**ViralScout MCP — by Mahmoud Hisham**
+**ViralScout MCP — by Mahmoud Hisham / TYKAIRO AI**
